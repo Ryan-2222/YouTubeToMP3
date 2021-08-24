@@ -1,0 +1,5 @@
+youtube-dl
+eyed3
+moviepy
+urllib3
+requests
