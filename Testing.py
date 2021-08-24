@@ -1,1 +1,0 @@
-text = "https://www.youtube.com/watch?v=Ndt195uqjgw"print([text.find("=")])print([text.find("=") + 11])s = text[text.find("=") + 1 : text.find("=") + 12]print(s)
