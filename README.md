@@ -1,4 +1,4 @@
-# YouTube to MP3 Convector
+# YouTube to MP3 Converter
 
 ## Features
 - Support batch download
