@@ -11,7 +11,7 @@
 -    Download directly from the web
 
 ## RUN
-- Download all libraries mentioned in `requirement.txt` e.g `pip install`
+- Download all libraries mentioned in `requirements.txt` e.g `pip install`
 - Copy and paste the YouTube link into `config.json`, e.g.`"link":["here", "here2"]`. 
 - terminal / cmd: `py main.py`
 
