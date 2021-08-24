@@ -20,12 +20,6 @@
 - Please make sure that you have downloaded all libraries.
 - Don't make any changes in `config.json` `album_num` part.
 
-## Something you might need to pay attention to 
-- The library `pafy` that I used has a bug, you may need to change lines 53 and 54 of file `backend_youtube_dl.py`
-- line 53: `self._likes = self._ydl_info.get('like_count',0)`
-- line 54: `self._dislikes = self._ydl_info.get('dislike_count',0)`
-- Reference: https://github.com/mps-youtube/pafy/pull/288
-
 ## Others
 - Don't worry if you type the wrong link. Terminal will remind you :)
 - All MP3 files will be saved into the `Music` folder
