@@ -1,4 +1,0 @@
-youtube-dl
-pafy
-eyed3
-moviepy
