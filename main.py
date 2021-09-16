@@ -28,7 +28,11 @@ while True:
         with open("config.json", "w") as f:
             json.dump(link, f)
 
-    except (ValueError, urllib.error.HTTPError, youtube_dl.utils.DownloadError):
+    except IndexError:
+        print("Finished! PLease check!")
+        break
+
+    except:
         print("Oops! It seems the URL went wrong!")
         print("Please go config.json and check the Wrong URL")
         print()
@@ -36,8 +40,4 @@ while True:
         index += 1
         continue
 
-    except IndexError:
-        print("Finished! PLease check!")
-        break
-
-
+#(ValueError, urllib.error.HTTPError, youtube_dl.utils.DownloadError)
